@@ -14,6 +14,7 @@ def fortaleza():
 ventana= Tk ()
 ventana.title("GENERADOR DE CONTRASEÑAS")
 ventana.geometry("300x400")
+ventana.configure(bg='#00FA9A')
 
 tam=Label(ventana, text="Ingrese la Longitud:").pack()
 tamaño= tk.StringVar()
