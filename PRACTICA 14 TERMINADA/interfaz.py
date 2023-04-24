@@ -1,7 +1,7 @@
 from tkinter import*
 from tkinter import ttk
 from logica import*
-
+#toda la interfaz principal
 ventana= Tk ()
 ventana.title("CAJA POPULAR DE LOS  USUARIOS")
 ventana.geometry("500x300")
